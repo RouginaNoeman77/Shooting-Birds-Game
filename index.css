@@ -1,0 +1,116 @@
+body {
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+table {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  text-align: center;
+  margin: 50px;
+  left: 650px;
+  border-radius: 50px;
+  position: absolute;
+  top: 14px;
+  height: 20px;
+}
+
+table tr {
+  height: 72px;
+}
+
+table td {
+  width: 50px;
+  position: absolute;
+  padding-left: 70px;
+}
+
+.headtabletext {
+  text-align: center;
+  position: absolute;
+  width: 270px;
+  left: -3px;
+  top: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+img {
+  width: 90px;
+}
+
+.celltext {
+  position: relative;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.Points {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 339px;
+  padding: 50px;
+  text-align: center;
+  margin: 50px;
+  right: 340px;
+  border-radius: 50px;
+  height: 205px;
+  display: flex;
+}
+.entrypoint {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  max-width: 600px;
+  padding: 50px;
+  text-align: center;
+  margin: 50px;
+  left: 180px;
+  border-radius: 50px;
+  width: 350px;
+}
+
+.mySelect,
+.myText {
+  position: relative;
+  top: -20px;
+}
+
+.header {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
+}
+
+.selectgamelevel {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: x-large;
+  position: relative;
+  bottom: 46px;
+}
+
+.gobtn {
+  display: block;
+  position: absolute;
+  width: 50px;
+  border-radius: 100px;
+  background-color: limegreen;
+  padding: 5px;
+  bottom: 5px;
+  left: 200px;
+}
+
+#NameError{
+  display: none;
+  color: red;
+  font-weight: bold;
+  
+  
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game</title>
+    <link rel="stylesheet" href="gamestyle.css" />
+  </head>
+  <body>
+    <div class="msgbox">
+      <img class="warning" src="images/warning.png" />
+      <p class="userStoredData2">welcome, <span class="welcomemsg"> </span></p>
+      <p class="welcomingText">
+        We hope you like the game <br />
+        <br />
+        To win you should to kill 25 birds (black & white)<br /><br />
+        in a specific time :)
+      </p>
+      <button id="startbtn">Start Game</button>
+    </div>
+
+    <p><span class="userStoredData"> </span></p>
+    <span class="timerinfo"> Timer:</span>
+    <span class="scoreinfo"> Score:</span>
+    <span class="birdsinfo"> Birds Killed:</span>
+
+    <div class="message-box">
+      <img src="images/thumbup.png" class="winbird" />
+      <img src="images/Sadbird.png" class="losebird" />
+      <p class="message">
+        <span class="win"> You Won!</span> <span class="lose"> You Lost </span>
+      </p>
+      <p><span class="name2"> </span></p>
+      <p class="thanks">Thank you for playing!</p>
+      <p class="ScoreMsg">your Score is:<span class="score2"> </span></p>
+      <button class="playagain">play again?</button>
+    </div>
+
+    <audio class="quack">
+      <source src="sounds/duck-quack.mp3" type="audio/mp3" />
+    </audio>
+
+    <audio class="crow">
+      <source src="sounds/crow.mp3" type="audio/mp3" />
+    </audio>
+
+    <audio class="bluequack">
+      <source src="sounds/blue quack.mp3" type="audio/mp3" />
+    </audio>
+
+    <script src="game1.js"></script>
+  </body>
+</html>

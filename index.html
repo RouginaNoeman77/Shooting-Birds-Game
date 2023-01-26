@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>the game</title>
+    <link rel="stylesheet" href="Index.css" />
+  </head>
+
+  <body>
+    <div class="entrypoint">
+      <h3 class="selectgamelevel">Select Game Level</h3>
+      <select class="mySelect">
+        <option value="">Choose Level</option>
+        <option value="level1">Level 1</option>
+      </select>
+      <input type="text" class="myText" />
+
+      <h3 class="header">Entre Your Name</h3>
+      <form>
+        <input type="text" class="username" placeholder="Entre your name" />
+        <span id="NameError">Required</span>
+        <input type="submit" class="gobtn" value="go" />
+      </form>
+    </div>
+
+    <table class="tablepoints">
+      <thead>
+        <tr>
+          <td class="headtabletext">points for shooting</td>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td class="cell">
+            <img src="images/blueBird.gif" alt="bird1" class="blue" />
+          </td>
+          <td class="celltext">- 10</td>
+        </tr>
+        <tr>
+          <td class="cell">
+            <img src="images/whiteBird.gif" alt="bird2" class="white" />
+          </td>
+          <td class="celltext">+5</td>
+        </tr>
+        <tr>
+          <td class="cell">
+            <img src="images/ZHug.gif" alt="bird3" class="black" />
+          </td>
+          <td class="celltext">+10</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="index.js"></script>
+  </body>
+</html>
